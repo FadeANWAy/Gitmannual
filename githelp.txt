@@ -1,1 +1,7 @@
 git add xxx.xxx  '文件添加到本地git
+git commit -m "xxxxx"  '引号内是对本次提交的描述,×必须要加 -m参数，不可省略
+git status  '可以查看仓库状态,显示哪些文件是已经修改但是没有提交的
+git diff xxx.xxx  '查看xxx文件的修改
+git log --pretty=noeline  '显示提交日志  后面的参数可选
+git reset --hard HEAD^  '回退到上一个版本 HEAD代表当前版本 HEAD^代表上一个版本 HEAD^^等同理
+
