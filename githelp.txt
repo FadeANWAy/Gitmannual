@@ -6,5 +6,4 @@ git log --pretty=noeline  '显示提交日志  后面的参数可选
 git reset --hard HEAD^  '回退到上一个版本 HEAD代表当前版本 HEAD^代表上一个版本 HEAD^^等同理
 git checkout --xxx.xxx  '在commit之前可以通过该命令丢弃工作区的修改,简而言之就是让这个文件回到最后一次git commit或者git add的状态
 git rm xxx.xxx  '与git add完全相反的过程,另外也可以通过git checkout命令实现错误删除的复原
-
-
+git remote add origin git@github@.com:FadeANWAy/Gitmannual  '将本地库关联到github上的库
