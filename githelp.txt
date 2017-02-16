@@ -15,4 +15,6 @@ git checkout dev
 git branch  '查看当前分支'
 git merge dev  '将刚才dev分支上的工作结果合并到当前分支上'
 git branch -d dev  '删除分支'
+git log --graph --pretty=oneline --abbrev-commit  '带参数的git log可以看到分支合并的情况'
+git merge --no-ff -m "xxx"  '采用禁用fast forward模式合并分支'
 
