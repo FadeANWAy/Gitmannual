@@ -7,3 +7,12 @@ git reset --hard HEAD^  '回退到上一个版本 HEAD代表当前版本 HEAD^�
 git checkout --xxx.xxx  '在commit之前可以通过该命令丢弃工作区的修改,简而言之就是让这个文件回到最后一次git commit或者git add的状态
 git rm xxx.xxx  '与git add完全相反的过程,另外也可以通过git checkout命令实现错误删除的复原
 git remote add origin git@github@.com:FadeANWAy/Gitmannual  '将本地库关联到github上的库
+git chekout -b dev  '创建分支并切换，dev可以自己定义,-b表示创建并切换
+*上面一条指令相当于下面两条指令的连续执行
+git branch dev
+git checkout dev
+
+git branch  '查看当前分支'
+git merge dev  '将刚才dev分支上的工作结果合并到当前分支上'
+git branch -d dev  '删除分支'
+
